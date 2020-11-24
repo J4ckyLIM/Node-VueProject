@@ -1,0 +1,22 @@
+tu oublies pas de supprimer ce fichier quand t'as fini.
+
+
+Exo:
+
+Je veux créer une application web qui ressemble à Ebay:
+
+_ En tant que user je veux pouvoir créer un compte et me connecter
+_ En tant que user je veux pouvoir mettre des produits à vendre avec une description et une image et un prix (quantité peut etre)( tu peux ajouter d'autre champs si tu veux genre localisation)
+_ En tant que user je veux pouvoir regarder les produits en vente
+_ En tant que user je veux pouvoir retirer mes produits de la vente
+_ En tant que user je veux pouvoir acheter un produits
+
+je veux que les routes soient sécurisé (pas accessible au user non connecté), pour ca tu dois check le routing guard en vue et les meta j'ai mis un exemple.
+Pour certaines data 'global' tu peux utiliser le store, même principe qu'avec redux, c'est vue-store mais faut l'installer j'ai la flemme de le faire je prefere te laisser découvrir sinon demande à Mica.
+
+Le front tu le gère comme tu veux
+
+En back:
+
+Je veux que tu utilise postgresql (j'ai mis un exemple pour que tu vois comment ca marche)
+renseigne toi sur les callback.
